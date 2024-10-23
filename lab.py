@@ -12,8 +12,8 @@ print(csv_data.head())
 #.head() prints the first five rows from the csv file 
 #print (csv_data.describe())
 selected_data = csv_data[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
-# we will call the variables in this program data sets from now on 
-#the above executible line of code create a new data set from the csv_data set containing only the specified columns 
+# we will call the variables in this program data frame from now on 
+#the above executible line of code create a new data frame from the csv_data set containing only the specified columns 
 print(selected_data.head(9))
 #passing a number n in the head(n) function will display n rows
 plotable = selected_data[['CYLINDERS','ENGINESIZE','CO2EMISSIONS','FUELCONSUMPTION_COMB']]
