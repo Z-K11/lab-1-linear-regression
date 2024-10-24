@@ -20,7 +20,7 @@ plotable = selected_data[['CYLINDERS','ENGINESIZE','CO2EMISSIONS','FUELCONSUMPTI
 plotable.hist()
 plt.savefig('regression.png')
 plt.clf()
-#creates a histogram whic plots range at x axis and frequency of values on y axis refer to ai engineer notebook for detail
+#creates a histogram which plots range at x axis and frequency of values on y axis refer to ai engineer notebook for detail
 plt.scatter(plotable.FUELCONSUMPTION_COMB,plotable.CO2EMISSIONS,color ='blue')
 #plots the values against provided arguements
 plt.xlabel("FUELCONSUMPTION_COMB")
